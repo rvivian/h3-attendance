@@ -3,11 +3,11 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
+ * @link       https://northof66.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    H3_Attendance
+ * @subpackage H3_Attendance/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    H3_Attendance
+ * @subpackage H3_Attendance/includes
+ * @author     going Down On A bull moose <rhyssv@gmail.com>
  */
-class Plugin_Name_Deactivator {
+class H3_Attendance_Deactivator {
 
 	/**
 	 * Short Description. (use period)

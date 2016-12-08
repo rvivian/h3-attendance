@@ -6,11 +6,11 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       http://example.com
+ * @link       https://northof66.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    H3_Attendance
+ * @subpackage H3_Attendance/includes
  */
 
 /**
@@ -20,11 +20,11 @@
  * so that it is ready for translation.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    H3_Attendance
+ * @subpackage H3_Attendance/includes
+ * @author     going Down On A bull moose <rhyssv@gmail.com>
  */
-class Plugin_Name_i18n {
+class H3_Attendance_i18n {
 
 
 	/**
@@ -35,7 +35,7 @@ class Plugin_Name_i18n {
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'plugin-name',
+			'h3-attendance',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);

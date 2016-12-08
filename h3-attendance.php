@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       H3 Attendance
  * Plugin URI:        https://github.com/rvivian/h3-attendance
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       A plugin designed to track and display attendance for Hash House Harrier kennels.
  * Version:           1.0.0
  * Author:            going Down On A bull moose
  * Author URI:        https://northof66.com

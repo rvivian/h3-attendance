@@ -5,11 +5,11 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://example.com
+ * @link       https://northof66.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin/partials
+ * @package    H3_Attendance
+ * @subpackage H3_Attendance/admin/partials
  */
 ?>
 
