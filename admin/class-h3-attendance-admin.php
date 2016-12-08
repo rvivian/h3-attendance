@@ -111,7 +111,7 @@ class H3_Attendance_Admin {
      *
      */
     add_menu_page( 'H3 Attendance', 'H3 Attendance', 'manage_options', $this->plugin_name, array( $this, 'display_plugin_setup_page' ), '', '21' );
-    //add_submenu_page( $this->plugin_name, 'H3 Users', 'H3 Users', 'manage_options', 'h3-users', 'add_action_links' );
+    add_submenu_page( $this->plugin_name, 'Add User', 'Add User', 'manage_options', 'add-user', array( $this, 'display_add_user_page' ) );
   }
   
   /**
@@ -135,5 +135,9 @@ class H3_Attendance_Admin {
   
   public function display_plugin_setup_page() {
       include_once( 'partials/h3-attendance-admin-display.php' );
+  }
+  
+  public function display_add_user_page() {
+    include_once( 'partials/h3-attendance-add-user-display.php' );
   }
 }
